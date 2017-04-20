@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { TNSFontIconService } from 'nativescript-ngx-fonticon';
 
 import { Item } from "./item";
 import { ItemService } from "./item.service";
@@ -11,7 +12,10 @@ import { ItemService } from "./item.service";
 export class ItemsComponent implements OnInit {
     items: Item[];
 
-    constructor(private itemService: ItemService) { }
+    constructor(
+        private itemService: ItemService,
+        private fonticon: TNSFontIconService
+        ) { }
 
     ngOnInit(): void {
         this.items = this.itemService.getItems();

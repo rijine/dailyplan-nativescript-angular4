@@ -15,6 +15,11 @@ refer to http://docs.nativescript.org/ui/theme.
   font-family: FontAwesome, fontawesome-webfont;
 }
 
+.fa-list-item {
+  font-family: FontAwesome, fontawesome-webfont;
+  font-size: 36;
+}
+
 /*.ion {
   font-family: Ionicons, ionicons;
   font-size:60;

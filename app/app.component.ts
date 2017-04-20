@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { TNSFontIconService } from "nativescript-ngx-fonticon"
+//import { TNSFontIconService } from "nativescript-ngx-fonticon"
 
 @Component({
     selector: "ns-app",
@@ -7,6 +7,6 @@ import { TNSFontIconService } from "nativescript-ngx-fonticon"
 })
 export class AppComponent {
     constructor(
-        private fonticon: TNSFontIconService
+        //private fonticon: TNSFontIconService
         ) { }
 }
