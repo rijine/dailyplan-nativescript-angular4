@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
+import { TNSFontIconService } from 'nativescript-ngx-fonticon';
 
 import { Item } from "./item";
 import { ItemService } from "./item.service";
@@ -14,7 +15,8 @@ export class ItemDetailComponent implements OnInit {
 
     constructor(
         private itemService: ItemService,
-        private route: ActivatedRoute
+        private route: ActivatedRoute,
+        private fonticon: TNSFontIconService
     ) { }
 
     ngOnInit(): void {
