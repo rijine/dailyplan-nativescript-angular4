@@ -7,11 +7,19 @@
 
 // Customize any of the theme’s variables here, for instance $btn-color: red;
 $list-icon-size: 36;
-$icon-font-family: FontAwesome, fontawesome-webfont;
+$list-icon-font-family: FontAwesome, fontawesome-webfont;
+
+$list-text-size: 30;
+$list-text-font-family: Caviar Dreams, CaviarDreams;
 
 .fa-list-item {
     font-size: $list-icon-size;
-    font-family: $icon-font-family;
+    font-family: $list-icon-font-family;
+}
+
+.list-item {
+    font-size: $list-text-size;
+    font-family: $list-text-font-family;
 }
 
 

@@ -8,7 +8,7 @@
     <ListView [items]="items" class="list-group">
         <ng-template let-item="item">
             <Label [nsRouterLink]="['/item', item.id]" [text]="item.name"
-                class="list-group-item">
+                class="list-group-item list-item">
                 </Label>
         </ng-template>
     </ListView>
