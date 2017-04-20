@@ -1,7 +1,7 @@
 TODOs
 
 1. Fonts
-2. Font icons(font awesome)
+2. Font icons(font awesome) [Done]
 3. Bottom Bar
 4. Notification plugin
 5. Login
@@ -18,3 +18,4 @@ TODOs
 16. Animations
 17. Loading screen
 18. progressbars
+19. SASS instead of CSS [Done]
