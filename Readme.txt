@@ -1,9 +1,9 @@
 TODOs
 
-1. Fonts
+1. Fonts - [Done]
 2. Font icons(font awesome) [Done]
 3. Bottom Bar
-4. Notification plugin
+4. Local Notification plugin - https://github.com/EddyVerbruggen/nativescript-local-notifications
 5. Login
 6. Built in DB
 7. Remote DB
@@ -19,3 +19,4 @@ TODOs
 17. Loading screen
 18. progressbars
 19. SASS instead of CSS [Done]
+20. Feedback - https://github.com/EddyVerbruggen/nativescript-feedback
