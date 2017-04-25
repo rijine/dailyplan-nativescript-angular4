@@ -3,9 +3,9 @@ TODOs
 1. Fonts - [Done]
 2. Font icons(font awesome) [Done]
 3. Bottom Bar
-4. Local Notification plugin - https://github.com/EddyVerbruggen/nativescript-local-notifications
+4. Local Notification plugin [Done] - https://github.com/EddyVerbruggen/nativescript-local-notifications
 5. Login
-6. Built in DB
+6. Built in DB (Local Storage) [Done]
 7. Remote DB
 8. Cards
 9. Swipe on Cards
