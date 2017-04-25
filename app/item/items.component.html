@@ -5,13 +5,13 @@
 </StackLayout>-->
 <StackLayout class="page">
     <Label class="fa-list-item" [text]="'fa-bluetooth' | fonticon"></Label>
-    <Button
-      text="ShowMe"
-      (tap)="showNotification()"></Button>
+    <Button text="ShowMe" (tap)="showNotification()">
+      </Button>
+    <Button text="Store It" (tap)="storeValues()">
+      </Button>
     <ListView [items]="items" class="list-group">
         <ng-template let-item="item">
-            <Label [nsRouterLink]="['/item', item.id]" [text]="item.name"
-                class="list-group-item list-item">
+            <Label [nsRouterLink]="['/item', item.id]" [text]="item.name" class="list-group-item list-item">
                 </Label>
         </ng-template>
     </ListView>

@@ -1,7 +1,9 @@
 import { Component, OnInit } from "@angular/core";
 import { TNSFontIconService } from 'nativescript-ngx-fonticon';
 
-import LocalNotifications = require("nativescript-local-notifications");
+//import LocalNotifications = require("nativescript-local-notifications");
+import * as LocalNotifications from "nativescript-local-notifications";
+import * as LocalStorage from "nativescript-localstorage";
 
 import { Item } from "./item";
 import { ItemService } from "./item.service";
@@ -36,5 +38,15 @@ export class ItemsComponent implements OnInit {
         error => {
           LocalNotifications.cancelAll();
         })
+    }
+
+    storeValues(){
+        let username = LocalStorage.getItem("username");
+        console.log("Uname" + username);
+        if(!username){
+            LocalStorage.setItem("username", "RIjin");
+        }
+
+        console.log("Uname: " + LocalStorage.getItem("username"));
     }
 }

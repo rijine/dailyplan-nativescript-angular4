@@ -20,3 +20,6 @@ TODOs
 18. progressbars
 19. SASS instead of CSS [Done]
 20. Feedback - https://github.com/EddyVerbruggen/nativescript-feedback
+21. Logo
+22. Api Calls (REST)
+23. Analytics (Fabric..)
