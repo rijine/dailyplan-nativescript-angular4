@@ -22,6 +22,22 @@ $list-text-font-family: Caviar Dreams, CaviarDreams;
     font-family: $list-text-font-family;
 }
 
+//Animations
+.spin {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 
 // Import the theme’s main ruleset.
 @import '~nativescript-theme-core/scss/index';

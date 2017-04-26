@@ -1,10 +1,10 @@
 <ActionBar title="My App" class="action-bar">
 </ActionBar>
 <StackLayout class="page">
-    <Label class="fa-list-item" [text]="'fa-bluetooth' | fonticon"></Label>
+    <Label class="fa-list-item spin" [text]="'fa-bluetooth' | fonticon"></Label>
     <Button text="ShowMe" (tap)="showNotification()">
       </Button>
-    <Button text="Store It" (tap)="storeValues()">
+    <Button class="spin" text="Store It" (tap)="storeValues()">
       </Button>
       <Button text="ShowMe" (tap)="storeValuesInAppSettings()">
       </Button>
