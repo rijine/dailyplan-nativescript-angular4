@@ -4,6 +4,7 @@ import { TNSFontIconService } from 'nativescript-ngx-fonticon';
 //import LocalNotifications = require("nativescript-local-notifications");
 import * as LocalNotifications from "nativescript-local-notifications";
 import * as LocalStorage from "nativescript-localstorage";
+import * as ApplicationSettings from "application-settings";
 
 import { Item } from "./item";
 import { ItemService } from "./item.service";
@@ -15,6 +16,7 @@ import { ItemService } from "./item.service";
 })
 export class ItemsComponent implements OnInit {
     items: Item[];
+    counter = 0;
 
     constructor(
         private itemService: ItemService,
@@ -46,7 +48,13 @@ export class ItemsComponent implements OnInit {
         if(!username){
             LocalStorage.setItem("username", "RIjin");
         }
-
-        console.log("Uname: " + LocalStorage.getItem("username"));
+        //console.log("Uname: " + LocalStorage.getItem("username"));
+    }
+    storeValuesInAppSettings(){
+        let hello =  ApplicationSettings.getString('hello');
+        console.log("Name " + hello);
+        if(!hello){
+            ApplicationSettings.setString('hello', 'Rijin');
+        }
     }
 }

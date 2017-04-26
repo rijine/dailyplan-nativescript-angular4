@@ -5,7 +5,7 @@ TODOs
 3. Bottom Bar
 4. Local Notification plugin [Done] - https://github.com/EddyVerbruggen/nativescript-local-notifications
 5. Login
-6. Built in DB (Local Storage) [Done]
+6. Built in DB (Local Storage & Application Settings) [Done]
 7. Remote DB
 8. Cards
 9. Swipe on Cards
@@ -23,3 +23,5 @@ TODOs
 21. Logo
 22. Api Calls (REST)
 23. Analytics (Fabric..)
+24. Geo location
+25. Phone and SMS
