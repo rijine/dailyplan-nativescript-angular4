@@ -8,9 +8,11 @@ TODOs
 6. Built in DB (Local Storage & Application Settings) [Done]
 7. Remote DB
 8. Cards
+    - https://github.com/bradmartin/nativescript-cardview
 9. Swipe on Cards
 10. Appbar
 11. loading screen (slight)
+    -https://github.com/NathanWalker/nativescript-loading-indicator
 12. Calendar
 13. Charts
 14. Showing Notification Numbers on icons
@@ -19,6 +21,11 @@ TODOs
     a. CSS [Done]
         - 
     b. Angular
+
+    c. NativeScript
+        - https://github.com/bradmartin/nativescript-explosionfield
+        - https://github.com/bradmartin/nativescript-twitterbang
+        - https://github.com/bradmartin/nativescript-periscopehearts
 17. Loading screen
 18. progressbars
 19. SASS instead of CSS [Done]
@@ -45,3 +52,17 @@ TODOs
     - Some problems with ios pods, "pod repo update" solved the issue
 29. Forms
     -
+30. Fancy alerts
+    - https://github.com/NathanWalker/nativescript-fancyalert
+31. Coach Marking for New Users
+    - https://github.com/NathanWalker/nativescript-coachmarks
+32. Fab Buttons
+    -   https://github.com/bradmartin/nativescript-floatingactionbutton
+33. Custom Dialog
+    - https://github.com/enchev/nativescript-dialog
+34. Collapse headers or toolbox
+    - https://github.com/TheOriginalJosh/nativescript-collapsing-header
+35. Checkbox styling
+    -https://github.com/bradmartin/nativescript-checkbox
+
+
