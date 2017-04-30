@@ -16,6 +16,9 @@ TODOs
 14. Showing Notification Numbers on icons
 15. Logo
 16. Animations [1. rotate, ]
+    a. CSS [Done]
+        - 
+    b. Angular
 17. Loading screen
 18. progressbars
 19. SASS instead of CSS [Done]
@@ -28,8 +31,10 @@ TODOs
 25a. Phone and SMS
     - https://discourse.nativescript.org/t/phone-and-sms-with-nativescript-and-angular/1113
     - https://www.npmjs.com/package/nativescript-phone
-25b. SMS Reading  & Sending  
+25b. SMS Reading  & Sending  [Done] - Android
     - https://github.com/jgithaiga/nativescript-sms-inbox - Looks like support only android
+25c. Contacts 
+    -   https://www.npmjs.com/package/nativescript-contacts
 26. Toasts [Done] 
     - **coca pods to installed in ios, gem install cocapods; update build tools to latest in windows
     - https://github.com/TobiasHennig/nativescript-toast 
