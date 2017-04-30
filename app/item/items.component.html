@@ -6,8 +6,10 @@
       </Button>
     <Button class="spin" text="Store It" (tap)="storeValues()">
       </Button>
-      <Button text="ShowMe" (tap)="storeValuesInAppSettings()">
+    <Button text="ShowMe" (tap)="storeValuesInAppSettings()">
       </Button>
+    <Button text="ShowMe" (tap)="readSMS()">
+      </Button>  
     <ListView [items]="items" class="list-group">
         <ng-template let-item="item">
             <Label [nsRouterLink]="['/item', item.id]" [text]="item.name" class="list-group-item list-item">

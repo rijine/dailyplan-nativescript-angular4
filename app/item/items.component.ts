@@ -1,11 +1,14 @@
 import { Component, OnInit } from "@angular/core";
 import { TNSFontIconService } from 'nativescript-ngx-fonticon';
+import { isAndroid, isIOS, device, screen } from "platform";
 
+//Plugins
 //import LocalNotifications = require("nativescript-local-notifications");
 import * as LocalNotifications from "nativescript-local-notifications";
 import * as LocalStorage from "nativescript-localstorage";
 import * as ApplicationSettings from "application-settings";
 import * as Toast from "nativescript-toast";
+import * as SMSInbox from 'nativescript-sms-inbox';
 
 import { Item } from "./item";
 import { ItemService } from "./item.service";
@@ -59,6 +62,15 @@ export class ItemsComponent implements OnInit {
             ApplicationSettings.setString('hello', 'Rijin');
         }else{
             Toast.makeText(hello).show();
+        }
+    }
+    readSMS(){
+        if(isAndroid){
+            SMSInbox.getInboxes({ max: 2 }).then((res) => {
+                console.log(JSON.stringify(res));
+            }, (err) => {
+                console.log('Error: ' + err);
+            });
         }
     }
 }

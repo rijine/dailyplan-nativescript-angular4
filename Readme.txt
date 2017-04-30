@@ -25,7 +25,11 @@ TODOs
 23. Analytics (Fabric..)
     - https://www.npmjs.com/package/nativescript-fabric
 24. Geo location
-25. Phone and SMS
+25a. Phone and SMS
+    - https://discourse.nativescript.org/t/phone-and-sms-with-nativescript-and-angular/1113
+    - https://www.npmjs.com/package/nativescript-phone
+25b. SMS Reading  & Sending  
+    - https://github.com/jgithaiga/nativescript-sms-inbox - Looks like support only android
 26. Toasts [Done] 
     - **coca pods to installed in ios, gem install cocapods; update build tools to latest in windows
     - https://github.com/TobiasHennig/nativescript-toast 
