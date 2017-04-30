@@ -23,5 +23,13 @@ TODOs
 21. Logo
 22. Api Calls (REST)
 23. Analytics (Fabric..)
+    - https://www.npmjs.com/package/nativescript-fabric
 24. Geo location
 25. Phone and SMS
+26. Toasts [Done] 
+    - **coca pods to installed in ios, gem install cocapods; update build tools to latest in windows
+    - https://github.com/TobiasHennig/nativescript-toast 
+27. Material 
+    - https://github.com/bradmartin/nativescript-cardview
+28. Snackbar
+    - https://www.npmjs.com/package/nativescript-snackbar

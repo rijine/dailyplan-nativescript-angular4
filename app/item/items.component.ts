@@ -5,6 +5,7 @@ import { TNSFontIconService } from 'nativescript-ngx-fonticon';
 import * as LocalNotifications from "nativescript-local-notifications";
 import * as LocalStorage from "nativescript-localstorage";
 import * as ApplicationSettings from "application-settings";
+import * as Toast from "nativescript-toast";
 
 import { Item } from "./item";
 import { ItemService } from "./item.service";
@@ -53,8 +54,11 @@ export class ItemsComponent implements OnInit {
     storeValuesInAppSettings(){
         let hello =  ApplicationSettings.getString('hello');
         console.log("Name " + hello);
+        
         if(!hello){
             ApplicationSettings.setString('hello', 'Rijin');
+        }else{
+            Toast.makeText(hello).show();
         }
     }
 }
