@@ -40,5 +40,8 @@ TODOs
     - https://github.com/TobiasHennig/nativescript-toast 
 27. Material 
     - https://github.com/bradmartin/nativescript-cardview
-28. Snackbar
+28. Snackbar [Done]
     - https://www.npmjs.com/package/nativescript-snackbar
+    - Some problems with ios pods, "pod repo update" solved the issue
+29. Forms
+    -

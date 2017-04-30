@@ -8,8 +8,10 @@
       </Button>
     <Button text="ShowMe" (tap)="storeValuesInAppSettings()">
       </Button>
-    <Button text="ShowMe" (tap)="readSMS()">
-      </Button>  
+    <Button text="Read SMS" (tap)="readSMS()">
+      </Button>
+    <Button text="Snackbar" (tap)="showSnackBar()">
+      </Button> 
     <ListView [items]="items" class="list-group">
         <ng-template let-item="item">
             <Label [nsRouterLink]="['/item', item.id]" [text]="item.name" class="list-group-item list-item">

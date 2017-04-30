@@ -9,6 +9,7 @@ import * as LocalStorage from "nativescript-localstorage";
 import * as ApplicationSettings from "application-settings";
 import * as Toast from "nativescript-toast";
 import * as SMSInbox from 'nativescript-sms-inbox';
+import { SnackBar, SnackBarOptions } from "nativescript-snackbar";
 
 import { Item } from "./item";
 import { ItemService } from "./item.service";
@@ -21,6 +22,7 @@ import { ItemService } from "./item.service";
 export class ItemsComponent implements OnInit {
     items: Item[];
     counter = 0;
+
 
     constructor(
         private itemService: ItemService,
@@ -72,5 +74,11 @@ export class ItemsComponent implements OnInit {
                 console.log('Error: ' + err);
             });
         }
+    }
+    showSnackBar(){
+        let snackBar = new SnackBar();
+        snackBar.simple('Snackbar').then((args)=>{
+            console.log(JSON.stringify(args));
+        })
     }
 }
