@@ -64,5 +64,6 @@ TODOs
     - https://github.com/TheOriginalJosh/nativescript-collapsing-header
 35. Checkbox styling
     -https://github.com/bradmartin/nativescript-checkbox
-
+36. Images
+37. Changing package from org.nativescript
 

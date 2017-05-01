@@ -11,6 +11,10 @@ import * as Toast from "nativescript-toast";
 import * as SMSInbox from 'nativescript-sms-inbox';
 import { SnackBar, SnackBarOptions } from "nativescript-snackbar";
 
+
+import * as elementRegistryModule from 'nativescript-angular/element-registry';
+elementRegistryModule.registerElement("CardView", () => require("nativescript-cardview").CardView);
+
 import { Item } from "./item";
 import { ItemService } from "./item.service";
 
@@ -22,6 +26,13 @@ import { ItemService } from "./item.service";
 export class ItemsComponent implements OnInit {
     items: Item[];
     counter = 0;
+    cards: any = {
+        createdBy: "Rijjin",
+        UpdatedDate: 6775767575,
+        MediaURL: "ggjhkhkj",
+        Title: "jhjkk",
+        Summary: "hgj"
+    };
 
 
     constructor(
