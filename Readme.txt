@@ -1,3 +1,6 @@
+References
+https://github.com/DeviantJS/awesome-nativescript
+
 TODOs
 
 1. Fonts - [Done]
