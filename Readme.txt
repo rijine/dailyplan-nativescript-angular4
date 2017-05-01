@@ -7,8 +7,9 @@ TODOs
 5. Login
 6. Built in DB (Local Storage & Application Settings) [Done]
 7. Remote DB
-8. Cards
+8. Cards - [Done]
     - https://github.com/bradmartin/nativescript-cardview
+    - Styling/CSS need some work
 9. Swipe on Cards
 10. Appbar
 11. loading screen (slight)
@@ -66,4 +67,7 @@ TODOs
     -https://github.com/bradmartin/nativescript-checkbox
 36. Images
 37. Changing package from org.nativescript
+38. Camera
+39. 
+
 
