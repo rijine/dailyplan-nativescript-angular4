@@ -71,6 +71,6 @@ TODOs
 36. Images
 37. Changing package from org.nativescript
 38. Camera
-39. 
+39. Upgrade to latest Nativescript Version
 
 
